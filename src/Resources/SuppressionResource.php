@@ -1,17 +1,17 @@
 <?php
 
-namespace Vormkracht10\FilamentMails\Resources;
+namespace Backstage\FilamentMails\Resources;
 
 use Filament\Infolists\Infolist;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
-use Vormkracht10\FilamentMails\Resources\SuppressionResource\Pages\ListSuppressions;
-use Vormkracht10\Mails\Enums\EventType;
-use Vormkracht10\Mails\Enums\Provider;
-use Vormkracht10\Mails\Events\MailUnsuppressed;
-use Vormkracht10\Mails\Models\MailEvent;
+use Backstage\FilamentMails\Resources\SuppressionResource\Pages\ListSuppressions;
+use Backstage\Mails\Enums\EventType;
+use Backstage\Mails\Enums\Provider;
+use Backstage\Mails\Events\MailUnsuppressed;
+use Backstage\Mails\Models\MailEvent;
 
 class SuppressionResource extends Resource
 {

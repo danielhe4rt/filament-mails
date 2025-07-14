@@ -1,6 +1,6 @@
 <?php
 
-namespace Vormkracht10\FilamentMails\Resources;
+namespace Backstage\FilamentMails\Resources;
 
 use Filament\Infolists\Components\Grid;
 use Filament\Infolists\Components\Section;
@@ -9,10 +9,10 @@ use Filament\Infolists\Infolist;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Vormkracht10\FilamentMails\Resources\EventResource\Pages\ListEvents;
-use Vormkracht10\FilamentMails\Resources\EventResource\Pages\ViewEvent;
-use Vormkracht10\Mails\Enums\EventType;
-use Vormkracht10\Mails\Models\MailEvent;
+use Backstage\FilamentMails\Resources\EventResource\Pages\ListEvents;
+use Backstage\FilamentMails\Resources\EventResource\Pages\ViewEvent;
+use Backstage\Mails\Enums\EventType;
+use Backstage\Mails\Models\MailEvent;
 
 class EventResource extends Resource
 {
